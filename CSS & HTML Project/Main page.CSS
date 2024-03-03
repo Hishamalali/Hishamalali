@@ -1,0 +1,98 @@
+body{
+    
+    background-color: lightgrey ;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+#Navigation{
+    background: rgb(16, 16, 16);
+    height: 40px;
+    padding-top: 20px;
+}
+
+.fa-store{
+    color: white;
+    transform: translate(650px, -3px);
+}
+#Logo{
+    color: white;
+    transform: translate(1210px, -48px);
+}
+
+#siLabel{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#suLabel{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 4px 5px white;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#searcharea{
+    width: 300px;
+    height: 35px;
+}
+
+#searchbutton{
+    height: 35px;
+}
+
+
+#Most_liked{
+    width: 250px;
+    height: 375px;
+    background: white;
+    transform: translateX(5px);
+    animation: itemsGetbigger;
+    text-align: center;
+}
+
+#Most_liked:hover{
+    animation: itemsGetbigger;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-play-state: running;
+    
+}
+
+@keyframes itemsGetbigger{
+    from{width: 25%}
+    to{width: 25%;}
+}
+
+#item1{
+    text-align: left;
+}
+
+.fa-star{
+    color: goldenrod;
+    box-align: left;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+
+
+
+
